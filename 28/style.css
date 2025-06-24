@@ -209,14 +209,14 @@ h3{
 }
 
 
-#about, #hobbie, #gallery, #my-games, #build-pc-about, #my-gadgets, #yamanosusume {
+#about, #hobbie, #gallery, #games, #my-games, #build-pc-about, #my-gadgets, #yamanosusume {
     color: #32493c;
     padding: 60px 15%; 
 }
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* 2列のグリッドを作成 */
     gap: 20px; 
 }
 
@@ -243,6 +243,12 @@ h3{
 .gallery-grid img:hover {
     transform: scale(1.05); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-grid iframe {
+    width: 100%; 
+    height: auto; 
+    aspect-ratio: 16 / 9; 
 }
 
 .citation {
