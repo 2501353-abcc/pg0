@@ -136,16 +136,16 @@ nav ul a {
     background-image: url("./image/sefuri.jpg");
 }
 #top-anime{
-    background-image: url("/image/anime/head.png"); 
+    background-image: url("./image/anime/head.png"); 
 }
 #top-gadget{
-    background-image: url("/image/gadget/gadget-head.png"); 
+    background-image: url("./image/gadget/gadget-head.png"); 
 }
 #top-pc{
-    background-image: url("/image/pc/pc-head.png"); 
+    background-image: url("./image/pc/pc-head.png"); 
 }
 #top-camera{
-    background-image: url("/image/camera/camera-head.png"); 
+    background-image: url("./image/camera/camera-head.png"); 
 }
 .profile,.home-item,.item, .gadget-item,.pc-item,.anime-item{
     display: flex; 
