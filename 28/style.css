@@ -216,12 +216,14 @@ h3{
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2列のグリッドを作成 */
+    grid-template-columns: repeat(4, 1fr); /* 2列のグリッドを作成 */
     gap: 20px; 
 }
 
 
-#my-games .gallery-grid {
+
+
+#games .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -234,10 +236,11 @@ h3{
     cursor: pointer; 
 }
 
-.gallery-grid video {
+.gallery-grid  {
+    height: 100%;
     width: 100%;
-    aspect-ratio: 16 / 9; 
     border-radius: 8px; 
+    grid-template-columns: repeat(4, 1fr)
 }
 
 .gallery-grid img:hover {
@@ -247,8 +250,7 @@ h3{
 
 .gallery-grid iframe {
     width: 100%; 
-    height: auto; 
-    aspect-ratio: 16 / 9; 
+    height: 350px;  
 }
 
 .citation {
@@ -256,3 +258,4 @@ h3{
     font-size: 0.9rem;
     margin-top: 20px;
 }
+
